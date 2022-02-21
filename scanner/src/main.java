@@ -72,7 +72,7 @@ public class main1 {
 			Scanner arquivo1 = new Scanner(System.in);
 
 		
-			System.out.println("Escolha uma das opções de range:");
+			System.out.println("Escolha uma das opÃ§Ãµes de range:");
 			System.out.println("1 - COMPLETAR APENAS 192.168.1.* ");
 			System.out.println("2 - COMPLETAR APENAS 192.168.*.* ");
 			System.out.println("3 - COMPLETAR APENAS 192.*.*.* ");
@@ -83,25 +83,25 @@ public class main1 {
 			
 			
 			if(opcao1 == 2) {
-				System.out.println("De qual range de ip você deseja começar o scan da range? [Enter para 0 para padrão] ");
+				System.out.println("De qual range de ip vocÃª deseja comeÃ§ar o scan da range? [Enter para 0 para padrÃ£o] ");
 				System.out.println("Ex: 192.168.'25'.*");
 				System.out.println("    192.168.'26'.*");
 				System.out.println("    192.168.'27'.*");
 			} else if (opcao1 == 1) {
-				System.out.println("De qual range de ip você deseja começar o scan? [Enter para 0 para padrão] ");
+				System.out.println("De qual range de ip vocÃª deseja comeÃ§ar o scan? [Enter para 0 para padrÃ£o] ");
 				i2 = IpInicia.nextInt();
 				if(IpInicia.equals(null)) {
 					i2 = 0;
 				}
 			} else if (opcao1 == 4) {
 				System.out.println("Digite O ip na sequencia 1.2.3.4 ");
-				System.out.println("1º ");
+				System.out.println("1Âº ");
 				IP1 = IpInicia.nextInt();
-				System.out.println("2º ");
+				System.out.println("2Âº ");
 				IP2 = IpInicia.nextInt();
-				System.out.println("3º ");
+				System.out.println("3Âº ");
 				IP3 = IpInicia.nextInt();
-				System.out.println("4º ");
+				System.out.println("4Âº ");
 				IP4 = IpInicia.nextInt();
 				System.out.print("Digite uma porta: ");
 				porta1 = porta.nextInt();
@@ -125,7 +125,7 @@ public class main1 {
 			
 			
 		
-			System.out.println("Digite o nome desejado para o arquivo : Ex:forabolsonaro que ele será salvo como forabolsonaro.txt");
+			System.out.println("Digite o nome desejado para o arquivo : Ex:forabolsonaro que ele serÃ¡ salvo como forabolsonaro.txt");
 			arquivo = arquivo1.next();	
 			
 			
